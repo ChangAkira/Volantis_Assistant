@@ -1,0 +1,2 @@
+# Volantis_Assistant
+一个Hexo框架-Voalntis主题的书写博客助手，帮助快速书写一些非标准MarkDown写法。通过修改规则，也可用于Hexo的其它主题。
