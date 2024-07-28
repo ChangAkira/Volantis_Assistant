@@ -2,6 +2,10 @@
 
 一个Hexo框架-Voalntis主题的书写博客助手，帮助快速书写一些非标准MarkDown写法。通过修改规则，也可用于Hexo的其它主题。
 
+## 重要提示
+
+由于作者水平太差了，所以除主界面外，请使用页面上的“Back”按钮返回，否则会引发错误。
+
 ## About
 
 Volantis是Hexo框架的一个主题，官方网站[*Volantis*](https://volantis.js.org/).
@@ -107,6 +111,10 @@ Volantis主题提供一些插件等的快捷写法以及很多主题带来的元
 #### 请不要随意在记事本(NotePad)中修改
 
 由于程序中已经写死，所以规则集文件最多有50行，且前45行顺序调换后会导致提示文字和实际输入MarkDown写法不匹配。
+
+#### 对参数有疑问？
+
+对参数有疑问的部分，请查阅[Volantis标签插件文档](https://volantis.js.org/v5/tag-plugins)。
 
 ## 使用
 
