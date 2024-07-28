@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>which_rule_set</class>
+ <widget class="QWidget" name="which_rule_set">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="back_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>290</width>
+     <height>1021</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#back_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 80px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#back_btn:hover {
+    font-size: 100px;
+    color: #CCCCFF;
+}
+
+#back_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>等
+一
+下
+&lt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="go_btn">
+   <property name="geometry">
+    <rect>
+     <x>1610</x>
+     <y>10</y>
+     <width>290</width>
+     <height>1021</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#go_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 80px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#go_btn:hover {
+    font-size: 100px;
+    color: #CCCCFF;
+}
+
+#go_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>选
+好
+啦
+&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rule_set_1">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>10</y>
+     <width>420</width>
+     <height>1021</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#rule_set_1
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 50px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#rule_set_1:hover {
+    font-size: 60px;
+    color: #CCCCFF;
+}
+#rule_set_1:checked{
+	color:black;
+	background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rule_set_2">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>10</y>
+     <width>420</width>
+     <height>1021</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#rule_set_2
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 50px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#rule_set_2:hover {
+    font-size: 60px;
+    color: #CCCCFF;
+}
+#rule_set_2:checked{
+	color:black;
+	background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rule_set_3">
+   <property name="geometry">
+    <rect>
+     <x>1180</x>
+     <y>10</y>
+     <width>420</width>
+     <height>1021</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#rule_set_3
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 50px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#rule_set_3:hover {
+    font-size: 60px;
+    color: #CCCCFF;
+}
+#rule_set_3:checked{
+	color:black;
+	background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

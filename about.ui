@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about</class>
+ <widget class="QWidget" name="about">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="font">
+   <font>
+    <family>字魂卡通软糖体(商用需授权)</family>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="avatar_label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>650</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>650</width>
+     <height>650</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#avatar_label
+{
+	min-width: 650px;
+    max-width: 650px;
+    max-height: 650px;
+    min-height: 650px;
+	border-image:url(:/res/imgs/avatar1.png);
+	border-width: 0px;	
+	border-style: solid;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_btn">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>740</y>
+     <width>91</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#back_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 50px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#back_btn:hover {
+    font-size: 65px;
+    color: #CCCCFF;
+}
+
+#back_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>B
+A
+C
+K</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="github_btn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>850</y>
+     <width>201</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#github_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 65px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#github_btn:hover {
+    font-size: 75px;
+    color: #CCCCFF;
+}
+
+#github_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>GIT
+HUB</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="blog_btn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>740</y>
+     <width>481</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#blog_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 75px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#blog_btn:hover {
+    font-size: 85px;
+    color: #CCCCFF;
+}
+
+#blog_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>BLOG</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="email_btn">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>850</y>
+     <width>271</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#email_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 70px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#email_btn:hover {
+    font-size: 80px;
+    color: #CCCCFF;
+}
+
+#email_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>E-mail</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="project_name_label">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>40</y>
+     <width>900</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>JMH</family>
+     <pointsize>95</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family:JMH;
+font-size:95pt;</string>
+   </property>
+   <property name="text">
+    <string>Volantis Assistant</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="version_label">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>180</y>
+     <width>161</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>JMH</family>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family:JMH;
+font-size:40pt;</string>
+   </property>
+   <property name="text">
+    <string>V. 1.0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="about_label_1">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>240</y>
+     <width>1161</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>JMH</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family:JMH;
+font-size:24pt;</string>
+   </property>
+   <property name="text">
+    <string>  Volantis是Hexo框架的一个主题，官方网站
+  Volantis主题提供一些插件等的快捷写法以及很多主题带来的元素效果。仅以插入图片来说，有四五种效果、功能不尽相同的写法。我在写自己的博客时，经常需要一边看Volantis文档一边写。有一次，我在网上学了一种前端效果并用在自己的博客文章中，后来才发现Volantis已经有该效果插件，不需要自己再写。这些增加了作者的书写量，带来了一些重复性的工作，作者需要记忆相当量的MarkDown“方言”。于是我编写了这样一个工具，使常用的一些非标准MarkDown写法插入变得简单。
+  该工具简化了博客书写过程，让作者更加专注于内容本身的书写。通过配置规则集文件，也可以适用于其它主题。
+  本项目为开源项目，使用Qt5.7.1.0框架编写。本人学生，才思不足，疏漏百出。如果对你有一点点的帮助，希望点一个标星，或在B站介绍视频中点一个免费的赞。
+  项目介绍视频在B站，代码开源于Github，部分细节在我的博客网站中介绍。
+  在这里，我想感谢学校、BOE俱乐部对我的帮助。</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="url_label_volantis">
+   <property name="geometry">
+    <rect>
+     <x>1430</x>
+     <y>250</y>
+     <width>361</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>JMH</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family:JMH;
+font-size:24pt;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://volantis.js.org/?type&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://volantis.js.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="r_label">
+   <property name="geometry">
+    <rect>
+     <x>1760</x>
+     <y>960</y>
+     <width>81</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>JMH</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family:JMH;
+font-size:24pt;</string>
+   </property>
+   <property name="text">
+    <string>默元</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

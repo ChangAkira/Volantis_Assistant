@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/fonts/katong.ttf</file>
+        <file>res/imgs/avatar1.png</file>
+        <file>res/fonts/FiraCode-Regular.ttf</file>
+        <file>res/fonts/JJ.ttf</file>
+        <file>res/fonts/HYCFS.ttf</file>
+        <file>res/fonts/01TogeGothic-ExtraLight-2.otf</file>
+    </qresource>
+</RCC>
