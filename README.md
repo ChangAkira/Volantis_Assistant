@@ -14,15 +14,13 @@
 
 ### 下载
 
-![进入release分支](https://i0.hdslb.com/bfs/article/9e780c1c4ee0380edc30a4873bc706fb481184837.png)
-
-进入release分支。点击volantis_assistant_v_1_0.rar文件。
+点击download文件夹，点击volantis_assistant_v_1_0.rar（或其它版本）文件。
 
 ![点击下载按钮](https://i0.hdslb.com/bfs/article/961d70b99b31070018e0ba2d0d582cca481184837.png)
 
 点击图中红圈所指的下载按钮。
 
-也可以通过夸克网盘[分享文件](https://pan.quark.cn/s/392991fe7d38)下载，提取码：yuS2。
+也可以通过夸克网盘[分享文件](https://pan.quark.cn/s/43213628cdf3)下载，提取码：hdD4。
 
 将.RAR文件解压缩至合适位置，点击.exe即可使用。
 
