@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>text_style_w</class>
+ <widget class="QWidget" name="text_style_w">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="underline_btn">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>701</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#underline_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 35px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#underline_btn:hover {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+
+#underline_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>下划线</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="emp_btn">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>741</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#emp_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 35px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#emp_btn:hover {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+
+#emp_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>着重号</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="wavy_btn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>781</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#wavy_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 35px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#wavy_btn:hover {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+
+#wavy_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>波浪线</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del_btn">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>741</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#del_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 35px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#del_btn:hover {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+
+#del_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="keyboard_btn">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>360</y>
+     <width>701</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#keyboard_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 35px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#keyboard_btn:hover {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+
+#keyboard_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>键盘文字</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="psw_btn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>430</y>
+     <width>661</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#psw_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 35px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#psw_btn:hover {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+
+#psw_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancle_btn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>661</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#cancle_btn
+{
+	font-weight:bold;
+    border-radius: 15px;
+    font-size: 35px;
+    color: black;
+	border:6px solid #CCCCFF;
+}
+
+#cancle_btn:hover {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+
+#cancle_btn:pressed {
+	color:black;
+    background:#CCCCFF; /* 按下颜色 */
+	border:6px solid black;
+}</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
