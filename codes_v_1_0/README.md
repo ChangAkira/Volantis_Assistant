@@ -6,6 +6,26 @@
 
 由于作者水平太差了，所以除主界面外，请使用页面上的“Back”按钮返回，否则会引发错误。
 
+## 开源与下载
+
+### 开源
+
+使用Desktop Qt 5.7.1 MSVC2015_64bit编写，代码详见main分支，描述为"code"。
+
+### 下载
+
+![进入release分支](https://i0.hdslb.com/bfs/article/9e780c1c4ee0380edc30a4873bc706fb481184837.png)
+
+进入release分支。点击volantis_assistant_v_1_0.rar文件。
+
+![点击下载按钮](https://i0.hdslb.com/bfs/article/961d70b99b31070018e0ba2d0d582cca481184837.png)
+
+点击图中红圈所指的下载按钮。
+
+也可以通过夸克网盘[分享文件](https://pan.quark.cn/s/392991fe7d38)下载，提取码：yuS2。
+
+将.RAR文件解压缩至合适位置，点击.exe即可使用。
+
 ## About
 
 Volantis是Hexo框架的一个主题，官方网站[*Volantis*](https://volantis.js.org/).
